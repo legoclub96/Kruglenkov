@@ -1,0 +1,83 @@
+* {
+	padding: 0
+	margin: 0;
+	box-sizing: border-box;
+}
+main {
+	width: 70;
+	margin: auto;
+	padding: 50px;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+body {
+	background-color: #efefef;
+}
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 10px;
+	background-color: blue;
+	background-position: center;
+	background-size: cover;
+	transition: all; 0.5s ease;
+}
+
+.photo:hover {
+	transform: rotate(360deg) scale(1.07);
+}
+
+h1{
+	width: 100;
+	text-align: center;
+	font-size: 48px;
+
+}
+
+.img1 {
+
+	background-image: url(..//img/img1.png);
+
+}
+
+.img2 {
+
+	background-image: url(..//img/img2.png);
+
+}
+
+.img3 {
+
+     background-image: url(..//img/img3.png);
+
+}
+.img4  {
+	background-image: url(..//img/img4.png);
+}
+ 
+.img5 {
+	background-image: url(..//img/img5.png);
+}
+
+.img6 {
+	background-image: url(..//img/img6.png);
+}
+
+.img7 {
+	background-image: url(..//img/img7.png);
+}
+
+.img8 {
+	background-image: url(..//img/img8.png);
+}
+
+.img9 {
+	background-image: url(..//img/img9.png);
+}
+
+.img10 {
+	background-image: url(..//img/img10.png);
+}
+
